@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #f2f3f4;
+    font-size: 1.2em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    width: 75vw;
+    margin: 0 auto 0 auto;
+}
+
+.chat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.chat__avatar{
+    display: flex;
+    width: 10vw;
+}
+
+.chat__h1{
+    font-weight: 600;
+}
+
+.chat__speaker1, .chat__speaker2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.chat__speaker1{
+    justify-content: end;
+}
+
+.chat__speaker2{
+    justify-content: start;
+}
+
+.chat__speak1, .chat__speak2{
+    border:none;
+    padding: 2% 0 2% 2%;
+    width:40vw;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.chat__speak1{
+    background-color: #f5b7b1;
+    border-radius: 20px 20px 20px 0;
+    
+}
+
+.chat__speak2{
+    background-color:  #aed6f1;    
+    border-radius: 20px 20px 20px 0;
+}
+
+
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
